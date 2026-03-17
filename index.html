@@ -35,8 +35,8 @@ h2{font-family:var(--fh);font-size:40px;font-weight:800;letter-spacing:-1px;line
 .row-item .dot{flex-shrink:0;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;margin-top:1px}
 .box-prob .dot{background:#fecaca;color:var(--red)}
 .vp{background:#f0f5ff;border-radius:14px;padding:16px;border:1px solid rgba(0,82,204,0.08)}
-.vp .t{font-family:var(--fh);font-size:15px;font-weight:700;margin-bottom:3px;color:var(--blue)}
-.vp .d{font-size:13.5px;color:var(--g2);line-height:1.45;font-family:var(--fb)}
+.vp .t{font-family:var(--fh);font-size:16px;font-weight:700;margin-bottom:3px;color:var(--blue)}
+.vp .d{font-size:14px;color:var(--g2);line-height:1.45;font-family:var(--fb)}
 .flow{display:flex;gap:0;border-radius:12px;overflow:hidden;margin:18px 0}
 .flow-s{flex:1;padding:16px 6px;text-align:center;color:white;font-size:12px;font-weight:600;line-height:1.3;font-family:var(--fb)}
 .flow-s .step-icon{margin-bottom:4px;display:flex;justify-content:center}
@@ -66,14 +66,14 @@ h2{font-family:var(--fh);font-size:40px;font-weight:800;letter-spacing:-1px;line
 .som-table tr:last-child td{border-bottom:none;font-weight:700;color:var(--blue)}
 .source-bar{margin-top:14px;padding:10px 14px;background:rgba(0,82,204,0.04);border:1px solid rgba(0,82,204,0.08);border-radius:10px;font-size:11px;color:var(--g2);line-height:1.6;font-family:var(--fb)}
 .source-bar strong{color:var(--blue)}
-.brand-img-sm{border-radius:12px;width:100%;height:180px;object-fit:cover;box-shadow:0 4px 16px rgba(0,0,0,0.1)}
+.brand-img-sm{border-radius:12px;width:100%;height:210px;object-fit:cover;object-position:center top;box-shadow:0 4px 16px rgba(0,0,0,0.1)}
 /* Live iframe */
 .site-frame-wrap{border-radius:14px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.3);border:1px solid rgba(255,255,255,0.1);position:relative;background:#fff}
 .site-frame-bar{background:#f0f0f0;padding:8px 14px;display:flex;align-items:center;gap:8px;border-bottom:1px solid #e0e0e0}
 .site-frame-bar .dots-browser{display:flex;gap:5px}
 .site-frame-bar .dots-browser span{width:10px;height:10px;border-radius:50%}
 .site-frame-bar .url-bar{flex:1;background:white;border:1px solid #ddd;border-radius:6px;padding:4px 10px;font-size:11px;color:#555;font-family:var(--fb)}
-.site-frame-wrap iframe{width:100%;height:340px;border:none;display:block}
+.site-frame-wrap iframe{width:100%;height:420px;border:none;display:block}
 .close-title{font-family:var(--fh);font-size:52px;font-weight:800;color:white;letter-spacing:-1.5px}
 .close-sub{font-size:22px;color:rgba(255,255,255,0.7);margin:10px 0 30px;font-family:var(--fb)}
 .close-link{display:inline-block;padding:12px 30px;border-radius:100px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:white;font-size:16px;font-weight:600;text-decoration:none;font-family:var(--fb)}
@@ -95,7 +95,7 @@ nav button:hover{background:var(--blue);border-color:var(--blue-l)}
 @keyframes fUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 .timer-bar{position:fixed;top:0;left:0;right:0;height:3px;background:rgba(255,255,255,0.04);z-index:1000}
 .timer-fill{height:100%;background:linear-gradient(90deg,var(--blue),var(--blue-l),var(--acc));width:0%;transition:width 0.4s ease}
-@media(max-width:900px){.slide{padding:28px 24px 84px}h2{font-size:30px}.hero-logo{width:340px;margin-top:-40px;margin-bottom:-30px}.hero-tagline{font-size:22px}.g2,.g3,.g4,.g2x4{grid-template-columns:1fr}.flow{flex-direction:column}.close-title{font-size:36px}.tam-card .big{font-size:28px}.brand-img-sm{height:120px}.site-frame-wrap iframe{height:200px}}
+@media(max-width:900px){.slide{padding:28px 24px 84px}h2{font-size:30px}.hero-logo{width:340px;margin-top:-40px;margin-bottom:-30px}.hero-tagline{font-size:22px}.g2,.g3,.g4,.g2x4{grid-template-columns:1fr}.flow{flex-direction:column}.close-title{font-size:36px}.tam-card .big{font-size:28px}.brand-img-sm{height:120px}.site-frame-wrap iframe{height:250px}}
 </style>
 </head>
 <body>
@@ -169,7 +169,7 @@ nav button:hover{background:var(--blue);border-color:var(--blue-l)}
 <div class="inner">
 <p class="slide-num fi" style="color:rgba(255,255,255,0.4)">El producto</p>
 <h2 class="fi" style="color:white">Chamby.mx &mdash; En Producci&oacute;n</h2>
-<div class="g2 fi" style="gap:28px;align-items:start">
+<div class="fi" style="display:grid;grid-template-columns:1.2fr 0.8fr;gap:28px;align-items:start">
 <div>
 <div class="site-frame-wrap">
 <div class="site-frame-bar">
@@ -246,7 +246,7 @@ nav button:hover{background:var(--blue);border-color:var(--blue-l)}
 <div class="fi"><img style="width:280px;height:auto;margin-top:-40px;margin-bottom:-10px" src="img-logo.png" alt="Chamby Logo"></div>
 <h1 class="close-title fi">Construyendo Confianza</h1>
 <p class="close-sub fi">Un Trabajo a la Vez</p>
-<div class="fi"><span class="close-link">armando@chamby.mx</span></div>
+<div class="fi"><span class="close-link"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8eeffce3efe0eae1ceede6efe3ecf7a0e3f6">[email&#160;protected]</a></span></div>
 <div class="fi"><span class="close-url">chamby.mx</span></div>
 </div>
 </div>
@@ -258,7 +258,7 @@ nav button:hover{background:var(--blue);border-color:var(--blue-l)}
 <span class="cnt" id="cnt">1 / 7</span>
 <button id="btnNext" aria-label="Siguiente">&#8594;</button>
 </nav>
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 var T=7,c=1;
 function go(n){
 if(n<1||n>T)return;c=n;
@@ -272,8 +272,4 @@ document.getElementById('btnNext').addEventListener('click',function(){go(c+1)})
 document.getElementById('btnPrev').addEventListener('click',function(){go(c-1)});
 var dc=document.getElementById('dots');
 for(var i=1;i<=T;i++){var d=document.createElement('button');d.className='dot-n'+(i===1?' on':'');d.setAttribute('data-slide',String(i));d.setAttribute('aria-label','Slide '+i);d.addEventListener('click',function(){go(parseInt(this.getAttribute('data-slide')))});dc.appendChild(d)}
-document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key==='ArrowDown'||e.key===' ')go(c+1);if(e.key==='ArrowLeft'||e.key==='ArrowUp')go(c-1)});
-document.getElementById('timer').style.width=((1/T)*100)+'%';
-</script>
-</body>
-</html>
+document.addEventListener(
