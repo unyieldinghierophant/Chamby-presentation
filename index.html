@@ -272,4 +272,8 @@ document.getElementById('btnNext').addEventListener('click',function(){go(c+1)})
 document.getElementById('btnPrev').addEventListener('click',function(){go(c-1)});
 var dc=document.getElementById('dots');
 for(var i=1;i<=T;i++){var d=document.createElement('button');d.className='dot-n'+(i===1?' on':'');d.setAttribute('data-slide',String(i));d.setAttribute('aria-label','Slide '+i);d.addEventListener('click',function(){go(parseInt(this.getAttribute('data-slide')))});dc.appendChild(d)}
-document.addEventListener(
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key==='ArrowDown'||e.key===' ')go(c+1);if(e.key==='ArrowLeft'||e.key==='ArrowUp')go(c-1)});
+document.getElementById('timer').style.width=((1/T)*100)+'%';
+</script>
+</body>
+</html>
