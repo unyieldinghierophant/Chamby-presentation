@@ -84,39 +84,39 @@ nav{position:fixed;bottom:0;left:0;right:0;z-index:999;display:flex;justify-cont
 <div class="slide bg-light" data-n="4">
 <style>
 /* ── Horizontal flow ── */
-.s4-flow-h{display:flex;align-items:flex-start;gap:0;margin-top:24px;width:100%}
-.s4-step{display:flex;flex-direction:column;align-items:center;flex:1;position:relative;padding:0 8px}
+.s4-flow-h{display:flex;align-items:flex-start;gap:0;margin-top:32px;width:100%;justify-content:center}
+.s4-step{display:flex;flex-direction:column;align-items:center;flex:1;position:relative;padding:0 12px}
 .s4-step:not(:last-child)::after{
-  content:'';position:absolute;top:28px;
-  left:calc(50% + 30px);right:calc(-50% + 30px);
-  height:2px;
+  content:'';position:absolute;top:56px;
+  left:calc(50% + 58px);right:calc(-50% + 58px);
+  height:3px;
   background:linear-gradient(90deg,var(--blue),rgba(66,135,245,0.25));
   z-index:0
 }
 .s4-icon-wrap{
-  width:56px;height:56px;border-radius:18px;
+  width:112px;height:112px;border-radius:32px;
   display:flex;align-items:center;justify-content:center;
   position:relative;z-index:1;
-  box-shadow:0 4px 16px rgba(0,82,204,0.14)
+  box-shadow:0 8px 28px rgba(0,82,204,0.16)
 }
-.s4-icon-wrap svg{width:26px;height:26px;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;fill:none}
-.s4-step-name{font-family:var(--fh);font-size:13px;font-weight:800;color:var(--g1);text-align:center;margin-top:12px;line-height:1.25}
-.s4-step-tag{font-size:11px;font-weight:700;font-family:var(--fh);margin-top:4px;text-align:center;line-height:1.2}
+.s4-icon-wrap svg{width:50px;height:50px;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;fill:none}
+.s4-step-name{font-family:var(--fh);font-size:16px;font-weight:800;color:var(--g1);text-align:center;margin-top:16px;line-height:1.25}
+.s4-step-tag{font-size:13px;font-weight:700;font-family:var(--fh);margin-top:5px;text-align:center;line-height:1.2}
 /* ── Feature chips ── */
-.s4-feats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:28px}
+.s4-feats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:36px}
 .s4-fc{
-  display:flex;align-items:center;gap:12px;
+  display:flex;align-items:center;gap:14px;
   background:white;border:1px solid rgba(0,82,204,0.1);
-  border-radius:14px;padding:16px 18px;
+  border-radius:16px;padding:20px 22px;
   box-shadow:0 2px 8px rgba(0,82,204,0.06)
 }
 .s4-fc .fc-ico{
-  width:38px;height:38px;border-radius:11px;
+  width:48px;height:48px;border-radius:14px;
   display:flex;align-items:center;justify-content:center;flex-shrink:0;
   background:linear-gradient(135deg,#e8f0fe,#c9d9fb)
 }
-.s4-fc .fc-ico svg{width:18px;height:18px;stroke:var(--blue);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none}
-.s4-fc .fc-lbl{font-family:var(--fh);font-size:13px;font-weight:700;color:var(--blue);line-height:1.25}
+.s4-fc .fc-ico svg{width:22px;height:22px;stroke:var(--blue);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none}
+.s4-fc .fc-lbl{font-family:var(--fh);font-size:15px;font-weight:700;color:var(--blue);line-height:1.25}
 </style>
 <div class="inner">
   <p class="slide-num fi">La soluci&oacute;n</p>
@@ -200,9 +200,10 @@ nav{position:fixed;bottom:0;left:0;right:0;z-index:999;display:flex;justify-cont
 
   </div>
 </div></div>
-<div class="slide bg-dark slide-center" data-n="5"><div class="deco" style="width:400px;height:400px;top:-150px;right:-100px"></div><div class="inner" style="max-width:960px"><h2 class="fi" style="color:white;text-align:center;margin-bottom:36px">Por qu&eacute; ahora</h2><div class="g3 fi"><div class="timing-card"><div class="t-num">100M+</div><div class="t-label">Mexicanos usan internet (83.1%)</div><div class="t-why">M&aacute;ximo hist&oacute;rico &mdash; INEGI ENDUTIH 2024</div></div><div class="timing-card"><div class="t-num">10.3%</div><div class="t-label">Abren cuentas v&iacute;a apps fintech (vs 2.7% en 2021)</div><div class="t-why">Nu, Spin, Mercado Pago &mdash; ENIF 2024</div></div><div class="timing-card"><div class="t-num">162M</div><div class="t-label">Cuentas bancarias en MX (vs 126M en 2020)</div><div class="t-why">Bancarizaci&oacute;n acelerada &mdash; CNBV</div></div></div></div></div>
-<div class="slide bg-dark slide-center" data-n="6"><div class="deco" style="width:400px;height:400px;top:-150px;right:-100px"></div><div class="inner" style="text-align:center"><h2 class="fi" style="color:white;margin-bottom:36px">Demanda Validada</h2><div class="g4 fi" style="gap:20px"><div class="sc-big"><div class="n">50+</div><div class="l">Entrevistas<br>a Clientes</div></div><div class="sc-big"><div class="n">100+</div><div class="l">Entrevistas<br>a Proveedores</div></div><div class="sc-big"><div class="n">8+</div><div class="l">Competidores<br>Analizados</div></div><div class="sc-big highlight"><div class="n">$165K</div><div class="l">Ingresos en 6 meses<br>20+ trabajos</div></div></div></div></div>
-<div class="slide bg-dark" data-n="7">
+<div class="slide bg-light slide-center" data-n="5"><div class="inner" style="text-align:center"><div class="segment-bar fi" style="margin-bottom:24px"><div class="seg-title">Segmento: Hogares NSE C y C+ &middot; Zonas Urbanas &middot; Guadalajara</div><div class="seg-desc">Plomer&iacute;a, electricidad y limpieza &mdash; los 3 servicios con m&aacute;s demanda y recurrencia</div></div><h2 class="fi" style="margin-bottom:28px">$85B MXN: Oportunidad en M&eacute;xico</h2><div class="g3 fi" style="gap:20px"><div class="tam-big" style="background:linear-gradient(135deg,var(--blue),#0066FF)"><div class="big">$85B MXN</div><div class="label">TAM &mdash; Servicios de oficios hogar (CAGR 7%)</div><div class="src">IMARC Group, 2024</div></div><div class="tam-big" style="background:linear-gradient(135deg,#003D99,#4287F5)"><div class="big">$25.5B MXN</div><div class="label">SAM &mdash; Digitalizable ciudades clave (CAGR 15.3%)</div><div class="src">Verified Market Reports, 2025</div></div><div class="tam-big" style="background:linear-gradient(135deg,var(--acc),#e85d2c)"><div class="big">$1.275B</div><div class="label">SOM &mdash; Captura 5% &rarr; $63.75M GMV &rarr; $12.75M ingresos</div><div class="src">Modelo Chamby, 20% take rate</div></div></div><div class="fi" style="margin-top:28px;font-size:18px;color:var(--g2);font-family:var(--fb)"><strong style="color:var(--blue)">Tracci&oacute;n real:</strong> $165K MXN ingresos &middot; 20+ trabajos &middot; Ticket prom. $2,730 MXN &middot; 6 meses en GDL</div></div></div>
+<div class="slide bg-dark slide-center" data-n="6"><div class="deco" style="width:400px;height:400px;top:-150px;right:-100px"></div><div class="inner" style="max-width:960px"><h2 class="fi" style="color:white;text-align:center;margin-bottom:36px">Por qu&eacute; ahora</h2><div class="g3 fi"><div class="timing-card"><div class="t-num">100M+</div><div class="t-label">Mexicanos usan internet (83.1%)</div><div class="t-why">M&aacute;ximo hist&oacute;rico &mdash; INEGI ENDUTIH 2024</div></div><div class="timing-card"><div class="t-num">10.3%</div><div class="t-label">Abren cuentas v&iacute;a apps fintech (vs 2.7% en 2021)</div><div class="t-why">Nu, Spin, Mercado Pago &mdash; ENIF 2024</div></div><div class="timing-card"><div class="t-num">162M</div><div class="t-label">Cuentas bancarias en MX (vs 126M en 2020)</div><div class="t-why">Bancarizaci&oacute;n acelerada &mdash; CNBV</div></div></div></div></div>
+<div class="slide bg-dark slide-center" data-n="7"><div class="deco" style="width:400px;height:400px;top:-150px;right:-100px"></div><div class="inner" style="text-align:center"><h2 class="fi" style="color:white;margin-bottom:36px">Demanda Validada</h2><div class="g4 fi" style="gap:20px"><div class="sc-big"><div class="n">50+</div><div class="l">Entrevistas<br>a Clientes</div></div><div class="sc-big"><div class="n">100+</div><div class="l">Entrevistas<br>a Proveedores</div></div><div class="sc-big"><div class="n">8+</div><div class="l">Competidores<br>Analizados</div></div><div class="sc-big highlight"><div class="n">$165K</div><div class="l">Ingresos en 6 meses<br>20+ trabajos</div></div></div></div></div>
+<div class="slide bg-dark" data-n="8">
 <style>
 .s7-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:20px;align-items:start}
 .s7-impact{display:grid;grid-template-columns:1fr 1fr;gap:12px}
@@ -239,8 +240,7 @@ nav{position:fixed;bottom:0;left:0;right:0;z-index:999;display:flex;justify-cont
     </div>
   </div>
 </div></div>
-<div class="slide bg-light slide-center" data-n="8"><div class="inner" style="text-align:center"><div class="segment-bar fi" style="margin-bottom:24px"><div class="seg-title">Segmento: Hogares NSE C y C+ &middot; Zonas Urbanas &middot; Guadalajara</div><div class="seg-desc">Plomer&iacute;a, electricidad y limpieza &mdash; los 3 servicios con m&aacute;s demanda y recurrencia</div></div><h2 class="fi" style="margin-bottom:28px">$85B MXN: Oportunidad en M&eacute;xico</h2><div class="g3 fi" style="gap:20px"><div class="tam-big" style="background:linear-gradient(135deg,var(--blue),#0066FF)"><div class="big">$85B MXN</div><div class="label">TAM &mdash; Servicios de oficios hogar (CAGR 7%)</div><div class="src">IMARC Group, 2024</div></div><div class="tam-big" style="background:linear-gradient(135deg,#003D99,#4287F5)"><div class="big">$25.5B MXN</div><div class="label">SAM &mdash; Digitalizable ciudades clave (CAGR 15.3%)</div><div class="src">Verified Market Reports, 2025</div></div><div class="tam-big" style="background:linear-gradient(135deg,var(--acc),#e85d2c)"><div class="big">$1.275B</div><div class="label">SOM &mdash; Captura 5% &rarr; $63.75M GMV &rarr; $12.75M ingresos</div><div class="src">Modelo Chamby, 20% take rate</div></div></div><div class="fi" style="margin-top:28px;font-size:18px;color:var(--g2);font-family:var(--fb)"><strong style="color:var(--blue)">Tracci&oacute;n real:</strong> $165K MXN ingresos &middot; 20+ trabajos &middot; Ticket prom. $2,730 MXN &middot; 6 meses en GDL</div></div></div>
-<div class="slide bg-hero slide-center" data-n="9"><div class="deco" style="width:600px;height:600px;top:-250px;right:-180px"></div><div class="deco" style="width:400px;height:400px;bottom:-150px;left:-100px"></div><div class="hero-center"><div class="fi"><img style="width:280px;height:auto;margin-top:-40px;margin-bottom:-10px" src="img-logo.png" alt="Chamby Logo"></div><h1 class="close-title fi">Construyendo Confianza</h1><p class="close-sub fi">Un Trabajo a la Vez</p><div class="fi"><span class="close-link" id="contactemail"></span></div><div class="fi"><span class="close-url">chamby.mx</span></div></div></div>
+<div class="slide bg-hero slide-center" data-n="9"><div class="deco" style="width:600px;height:600px;top:-250px;right:-180px"></div><div class="deco" style="width:400px;height:400px;bottom:-150px;left:-100px"></div><div class="hero-center"><div class="fi" style="margin-bottom:8px"><div style="background:white;border-radius:20px;padding:16px;display:inline-block;box-shadow:0 8px 40px rgba(0,0,0,0.3)"><img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://chamby.mx/&margin=0&color=0052CC&bgcolor=ffffff" width="200" height="200" alt="QR chamby.mx" style="display:block;border-radius:6px"></div></div><h1 class="close-title fi">Construyendo Confianza</h1><p class="close-sub fi">Un Trabajo a la Vez</p><div class="fi"><span class="close-link" id="contactemail"></span></div><div class="fi"><span class="close-url">chamby.mx</span></div></div></div>
 </div>
 <nav id="nav"><button id="btnPrev" aria-label="Anterior">&#8592;</button><div class="dots" id="dots"></div><span class="cnt" id="cnt">1 / 9</span><button id="btnNext" aria-label="Siguiente">&#8594;</button></nav>
 <script>
